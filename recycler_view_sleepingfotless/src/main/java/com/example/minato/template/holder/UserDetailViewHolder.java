@@ -1,8 +1,10 @@
-package com.example.minato.template;
+package com.example.minato.template.holder;
 
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import com.example.minato.template.R;
 
 /**
  * Created by minato on 9/13/2017.
