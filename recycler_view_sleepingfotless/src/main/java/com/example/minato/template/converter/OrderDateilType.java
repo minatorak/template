@@ -1,8 +1,5 @@
-package com.example.minato.template;
+package com.example.minato.template.converter;
 
-/**
- * Created by minato on 9/11/2017.
- */
 
 public class OrderDateilType {
     public static final int TYPE_EMPTY = 0;
