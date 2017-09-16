@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/labthread/labthread.iml" filepath="$PROJECT_DIR$/labthread/labthread.iml" />
       <module fileurl="file://$PROJECT_DIR$/recycler_view_sleepingfotless/recycler_view_sleepingfotless.iml" filepath="$PROJECT_DIR$/recycler_view_sleepingfotless/recycler_view_sleepingfotless.iml" />
       <module fileurl="file://$PROJECT_DIR$/template.iml" filepath="$PROJECT_DIR$/template.iml" />
     </modules>

@@ -71,7 +71,7 @@ public class OrderDetail {
         }
     }
 
-    private static class Book{
+    public static class Book{
         @SerializedName("ISBN")
         private String isbn;
         @SerializedName("book_name")

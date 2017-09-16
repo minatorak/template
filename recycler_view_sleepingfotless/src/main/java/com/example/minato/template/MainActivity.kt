@@ -9,4 +9,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    private fun callService() {
+        FakeNetwork.getFakeOrderDetail(object : FakeNetwork.OnResultCallback() {
+            fun onOrderDetailCallback(orderDetail: OrderDetail) {
+                setOrderDetail(orderDetail)
+            }
+        })
+    }
+
+    private fun setOrderDetail(orderDetail: OrderDetail) {
+        // TODO Render orderDetail to Recycler View
+    }
 }
+

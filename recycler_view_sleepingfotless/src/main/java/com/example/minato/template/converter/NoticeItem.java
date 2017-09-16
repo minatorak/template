@@ -5,7 +5,7 @@ package com.example.minato.template.converter;
  */
 
 public class NoticeItem extends BaseOrderDetailItem {
-    public NoticeItem(int type) {
+    public NoticeItem() {
         super(OrderDateilType.TYPE_NOTICE);
     }
 }

@@ -5,7 +5,7 @@ package com.example.minato.template.converter;
  */
 
 public class ButtonItem extends BaseOrderDetailItem {
-    public ButtonItem(int type) {
+    public ButtonItem() {
         super(OrderDateilType.TYPE_BUTTON);
     }
 }

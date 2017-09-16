@@ -7,7 +7,7 @@ package com.example.minato.template.converter;
 public class SummaryItem extends BaseOrderDetailItem {
     private String name;
     private String price;
-    public SummaryItem(int type) {
+    public SummaryItem() {
         super(OrderDateilType.TYPE_SUMMARY);
     }
 

@@ -33,7 +33,7 @@ public class OrderItem extends BaseOrderDetailItem {
         this.price = price;
     }
 
-    public OrderItem(int type) {
+    public OrderItem() {
         super(OrderDateilType.TYPE_ORDER);
     }
 }

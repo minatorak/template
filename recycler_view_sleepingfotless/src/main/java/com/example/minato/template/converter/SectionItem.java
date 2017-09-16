@@ -6,7 +6,7 @@ package com.example.minato.template.converter;
 
 public class SectionItem extends BaseOrderDetailItem {
     private String section;
-    public SectionItem(int type) {
+    public SectionItem() {
         super(OrderDateilType.TYPE_SECTION);
     }
 

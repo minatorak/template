@@ -6,7 +6,7 @@ package com.example.minato.template.converter;
 
 public class UserDetailItem extends BaseOrderDetailItem{
     private String name;
-    public UserDetailItem(int type) {
+    public UserDetailItem() {
         super(OrderDateilType.TYPE_USER_DETAIL);
     }
 
